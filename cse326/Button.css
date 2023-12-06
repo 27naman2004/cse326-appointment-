@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color:white;
+	overflow-x: hidden;
+}
+.header{
+    display:flex;
+}
+.main{
+    background-color:rgb(0, 0, 0);
+    width:50%;
+    height:inherit;
+    font-size:20px;
+    text-align: center;
+}
+.main h2{
+    margin-left:0%;
+}
+.services{
+    background-color:rgb(0, 0, 0);
+    width:50%;
+    height:inherit;
+}
+.head{
+    width:100%;
+    height:100px;
+    margin-left:34.5%;
+    font-size:50px;
+}
+#name, #email, #phone, #date, #time, #appoint, #notes, button{
+    font-size:18px;
+    font-weight: bold;
+    text-align: center;
+    height:50px;
+    width:400px;
+    color:white;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius:2rem;
+    box-shadow:0 0 30px white;
+}
+.name, .email, .phone, .date, .time, .appoint, .notes, p{
+    font-size:20px;
+    font-weight: bolder;
+}
+#phone, #appoint{
+    height:50px;
+    width:250px;
+}
+#appoint{
+	color:rgb(255, 255, 255);
+	background-color:black;
+}
+#date, #time{
+    height:50px;
+    width:200px;
+}
+input[type="time"]::-webkit-calendar-picker-indicator, input[type="date"]::-webkit-calendar-picker-indicator{
+	background-color: white;
+	padding:10%;
+  }
+#notes{
+    height:100px;
+    width:300px;
+}
+#name:hover, #email:hover, #phone:hover, #date:hover, #time:hover, #appoint:hover, #notes:hover, button:hover{
+	box-shadow: 0 0 50px rgb(255, 0, 0);
+	transform: scale(1.15);
+	transition: ease-in-out 0.2s;
+}
+button{
+    height:40px;
+    width:100px;
+}
+.services h1{
+    margin-left:34%;
+    font-size: 30px;
+}
+.box0{
+	position: absolute;
+	top:243px;
+	right:10px;
+	margin-right:50px;
+}
+.box{
+	margin-left:50px;
+	margin-top:3.5rem;
+}
+.box1{
+	background-color:transparent;
+	width:300px;
+	height:270px;
+	box-shadow: 0 0 20px white;
+	border-radius: 2rem;
+	color:rgb(255, 255, 255);
+	text-align: center;
+	padding:0.5%;
+}
+.box1 img{
+	width:200px;
+	height:190px;
+	border-radius:50%;
+}
+#demo{
+	font-size: 16px;
+	line-height: 35px;
+	position:relative;
+	top:-200px;
+}
+.box1:hover{
+	box-shadow: 0 0 100px rgb(255, 0, 0);
+	transform: scale(1.15);
+	transition: ease-in-out 0.4s;
+}
+.box1:hover > img{
+	opacity:0.2;
+}
+.box1 > p{
+	opacity:0;
+}
+.box1:hover > p{
+	opacity:1;
+}
